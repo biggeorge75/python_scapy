@@ -23,8 +23,8 @@ def visszaallit(forras_ip, cel_ip):
     scapy.send(packet, verbose=False)
 
 elkuldott_packetek = 0
-celpont = '192.168.0.195'
-router = '192.168.56.1'
+celpont = ''
+router = ''
 
 try:
     while True:
